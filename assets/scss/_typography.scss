@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+$font1: 'Montserrat',sans-serif;
+$color1: #ec6302;
+$color2 : #2e8bc0;
+h2 {
+    font-family:$font1;
+    font-weight:700;
+    font-size:36px;
+    color:#000
+}
+p {
+    font-family:$font1;
+    font-size:14px;
+    line-height:1.44;
+    &.failed {
+        color:red;
+    }
+    &.passed {
+        color:green;
+    }
+}
